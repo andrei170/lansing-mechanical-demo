@@ -149,6 +149,8 @@ background:repeating-linear-gradient(135deg,#eef1f5 0 14px,#e3e8ee 14px 28px);fo
 .cta{background:linear-gradient(135deg,#041427,#0a2540 55%,#134a8e);border-top:4px solid #c5cdd7}
 .cta a.b{background:linear-gradient(180deg,#2470cc,#134a8e)}
 footer{background:#041120}
+.trust{grid-template-columns:repeat(3,1fr)}
+@media(max-width:900px){.trust{grid-template-columns:repeat(auto-fit,minmax(196px,1fr))}}
 @media(max-width:900px){.hero h1{font-size:29px}.finbar .t{font-size:17px}.finband h2{font-size:22px}}
 @media(max-width:560px){header .wrap{flex-wrap:wrap}nav.main{order:3;width:100%}
 nav.main a{padding:6px 8px;font-size:13.5px}.finbar .go{width:100%;text-align:center}
