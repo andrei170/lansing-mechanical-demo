@@ -193,7 +193,8 @@ background:linear-gradient(90deg,transparent,#29a9f0 30%,#0a6fb3 70%,transparent
 .trkpanel img{position:relative;display:block;width:100%;height:auto;filter:drop-shadow(0 14px 18px rgba(0,0,0,.35))}
 .brands{background:#fff;border-top:1px solid #d6dde6;border-bottom:1px solid #d6dde6}
 .brands .wrap{display:flex;align-items:center;justify-content:center;gap:28px;flex-wrap:wrap;padding:26px 16px}
-.brands img{display:block;height:auto;width:auto;max-width:340px;max-height:120px}
+.brands img{display:block;height:auto;width:auto;max-width:340px;max-height:150px}
+.tr .brandlogo{max-width:120px;padding:4px 0}
 .brands p{margin:0;max-width:420px;color:#3d4c60;font-weight:600}
 @media(max-width:760px){.trkpanel{grid-template-columns:1fr;padding:24px 0 16px 20px}.trkpanel h2{font-size:24px}
 .brands .wrap{flex-direction:column;text-align:center}}
