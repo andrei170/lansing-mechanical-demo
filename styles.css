@@ -155,7 +155,7 @@ footer{background:#041120}
 @media(max-width:560px){header .wrap{flex-wrap:wrap}nav.main{order:3;width:100%}
 nav.main a{padding:6px 8px;font-size:13.5px}.finbar .go{width:100%;text-align:center}
 .finband a.b{width:100%;text-align:center}}
-.logo .lmmark{float:left;height:44px;width:auto;margin:-2px 10px 0 0}
+.logo{white-space:nowrap}.logo .lmmark{float:left;height:44px;width:auto;margin:-2px 10px 0 0}
 .pic{display:block;width:100%;height:auto;border-radius:14px;box-shadow:0 10px 30px rgba(10,37,64,.16)}
 .pic.side{max-width:520px;margin:16px 0 0}
 .duo{display:grid;grid-template-columns:1.6fr 1fr;gap:14px}
